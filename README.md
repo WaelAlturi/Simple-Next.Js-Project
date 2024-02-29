@@ -1,36 +1,63 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Game of Thrones Character Viewer
 
-## Getting Started
+This project is a Next.js application that fetches data from the ThronesAPI to display information about Game of Thrones characters. It includes two main pages:
 
-First, run the development server:
+1. **Home Page:** Lists all Game of Thrones characters with their full names and images.
+2. **Character Page:** Provides detailed information about a specific character, including their family, full name, title, and an image.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Demo
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+You can try the application [here](https://fetch-api-next-js-phi.vercel.app).
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### Prerequisites
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- Node.js installed on your local machine
+- A modern web browser
 
-## Learn More
+### Installation
 
-To learn more about Next.js, take a look at the following resources:
+1. Clone the repository:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   ```bash
+   git clone <repository_url>
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+2. Navigate to the project directory:
 
-## Deploy on Vercel
+   ```bash
+   cd <project_directory>
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+3. Install dependencies:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+   ```bash
+   npm install
+   ```
+
+### Running the Application
+
+1. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+2. Open your web browser and visit [http://localhost:3000](http://localhost:3000) to view the application.
+
+## Usage
+
+- Browse the list of Game of Thrones characters on the home page.
+- Click on a character's name or image to view more details about that character.
+- Use the "Back" link on the character page to return to the home page.
+
+## Built With
+
+- [Next.js](https://nextjs.org/) - A React framework for building server-side rendered and statically generated applications.
+- [ThronesAPI](https://thronesapi.com/) - An API providing information about Game of Thrones characters.
+
+## Folder Structure
+
+- `app/`: Contains the Next.js pages and components.
+  - `page.js`: The Home page component.
+  - `[characterid]/`: Contains the Character page component.
+  - `page.js`: The Character page component.
