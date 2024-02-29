@@ -60,4 +60,4 @@ You can try the application [here](https://fetch-api-next-js-phi.vercel.app).
 - `app/`: Contains the Next.js pages and components.
   - `page.js`: The Home page component.
   - `[characterid]/`: Contains the Character page component.
-  - `page.js`: The Character page component.
+    - `page.js`: The Character page component.
